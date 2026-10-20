@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="color-scheme" content="light" />
+<meta name="description" content="LegalDesk Pro — Yerel hukuk bürosu yönetimi demo uygulaması." />
+<title>LegalDesk Pro — Hukuk Bürosu Yönetimi</title>
+<link rel="stylesheet" href="/static/styles.css" />
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<div class="shell" id="shell">
+  <aside class="sidebar" id="sidebar" aria-label="Ana menü">
+    <div class="brand"><div class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 9v30M13 17h22M11 35h26M17 40h14" stroke="currentColor" stroke-width="2.8" fill="none" stroke-linecap="round"/><path d="m13 17-6 11h12l-6-11Zm22 0-6 11h12l-6-11Z" fill="currentColor" opacity=".55"/></svg></div><div><strong>LegalDesk<span>Pro</span></strong><small>LAW OFFICE OS</small></div></div>
+    <div class="nav-caption">ÇALIŞMA ALANI</div>
+    <nav id="nav"></nav>
+    <div class="sidebar-bottom"><div class="support-tile"><span class="support-orb">✦</span><strong>Kontrol sizde.</strong><small>Tüm kayıtlar bu bilgisayarda tutulur. Bu bir demo sürümüdür.</small><div class="support-line"></div><span class="support-tag">LOCAL DEMO • v1.0</span></div><div class="profile"><div class="avatar">LP</div><div><strong>LegalDesk Çalışma Alanı</strong><small>Yerel örnek ortam</small></div><span class="profile-dots">⋯</span></div></div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <button class="icon-btn mobile-menu" id="menu-toggle" aria-label="Menüyü aç">☰</button>
+      <div class="crumbs">Çalışma Alanı <span>/</span> <strong id="crumb-current">Genel Bakış</strong></div>
+      <div class="top-actions"><span class="local-pill"><span></span> Yerel çalışma</span><div class="today-pill" id="today-label"></div><button class="round-avatar" aria-label="Demo profili">LD</button></div>
+    </header>
+    <div class="page" id="page" aria-live="polite"></div>
+  </main>
+</div>
+<div id="modal-root"></div><div id="toast-root" role="status" aria-live="polite"></div>
+<div id="menu-cover"></div>
+</body>
+</html>

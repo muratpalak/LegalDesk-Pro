@@ -1,0 +1,22 @@
+LegalDesk Pro v1.0 — GitHub Yukleme (macOS)
+=======================================
+
+1. ZIP dosyasini Downloads (Indirilenler) klasorune acin.
+2. Terminal'i acin ve su komutlari sirayla calistirin:
+
+   cd "$HOME/Downloads/LegalDesk-Pro"
+   bash GitHub-Yukle.command
+
+3. Ilk kez kullaniyorsaniz GitHub giris ekranini tamamlayin.
+4. Islem tamamlaninca projeyi su adreste goreceksiniz:
+   https://github.com/muratpalak/LegalDesk-Pro
+
+Gerekli araclar: git, gh (GitHub CLI).
+'gh' yoksa: brew install gh
+
+NOT: Bu betik sadece muratpalak hesabini kabul eder.
+GitHub reposu public olusturulur. .env ve app/data altindaki
+veritabani, belge ve gizli dosyalar GitHub'a eklenmez.
+Mevcut bir GitHub reposunun gecmisi uzerine force push yapilmaz.
+
+GERCEK MUSTERI VERISI KULLANMAYIN. Bu proje bir portfoy demosudur.

@@ -1,0 +1,28 @@
+# Never publish client data or case documents
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+node_modules/
+app/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+
+# Additional sensitive local configuration, credentials and exports
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+backups/
+*.bak
