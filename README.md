@@ -1,5 +1,20 @@
 # ⚖️ LegalDesk Pro
 
+<!-- BEGIN: INTERNATIONAL PORTFOLIO SUMMARY -->
+
+[![CI status](https://github.com/muratpalak/LegalDesk-Pro/actions/workflows/ci.yml/badge.svg)](https://github.com/muratpalak/LegalDesk-Pro/actions/workflows/ci.yml)
+
+**International portfolio overview / Internationale Projektübersicht**
+
+**EN:** Local law-office workflow demo for clients, cases, calendar, tasks, financial records and document handling. **Tech:** FastAPI · SQLite · JavaScript. This is a portfolio/demo project; read its limitations before real-world use.
+
+**DE:** Lokales Kanzlei-Workflow-Demo für Akten, Termine, Aufgaben, Finanzen und Dokumente.
+
+**[Technical case study / Technische Projektbeschreibung](docs/PORTFOLIO_CASE_STUDY.md)** · [Automated checks](https://github.com/muratpalak/LegalDesk-Pro/actions/workflows/ci.yml)
+
+<!-- END: INTERNATIONAL PORTFOLIO SUMMARY -->
+
+
 **Modern, local-first law office management prototype** / **Yerel çalışan hukuk bürosu yönetim uygulaması**
 
 ![LegalDesk Pro – Dashboard](docs/dashboard-preview.png)
